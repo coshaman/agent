@@ -4,11 +4,11 @@ import GlitchedWriter, { wait } from "https://cdn.skypack.dev/glitched-writer@2.
 const Writer = new GlitchedWriter('#glitch_this', { letterize: true }, undefined, logString);
 (async function () {
     await wait(1000);
-    await Writer.write("my old friend.");
+    await Writer.write("Entering the system...");
     await wait(1200);
-    await Writer.write("This is only the beginning.");
+    await Writer.write("Access Granted");
     await wait(1500);
-    await Writer.write("Please, say something...");
+    await Writer.write("Enter Command mode...");
     input.removeAttribute("disabled");
 })();
 function logString(string) {
